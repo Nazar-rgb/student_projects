@@ -7,6 +7,7 @@ int liczba;
 cout<<"podaj liczbę"<<endl;
 cin>>liczba;
 for(int i =1;i<=liczba;i++){
+for(in
 cout <<"*"<<endl;
 }
 }
