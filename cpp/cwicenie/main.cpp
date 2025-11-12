@@ -1,13 +1,14 @@
 #include <iostream>
 
 using namespace std;
-
 int main(){
 int liczba;
-cout<<"podaj liczbę"<<endl;
-cin>>liczba;
-for(int i =1;i<=liczba;i++){
-for(in
-cout <<"*"<<endl;
-}
+cout << "podaj liczbe"<<endl;
+cin >>liczba;
+if(liczba % 2 != 0){
+	cout<<liczba<<" jest pierwszą "<<endl;
+}else{
+	cout<<liczba<<"nie jest pierwsza";}
+
+return 0;
 }
