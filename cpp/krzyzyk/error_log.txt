@@ -1,0 +1,62 @@
+main.cpp: In function ‘int main()’:
+main.cpp:9:30: error: expected ‘}’ before ‘;’ token
+    9 |                 {"w","w","w"};
+      |                              ^
+main.cpp:6:29: note: to match this ‘{’
+    6 |         int macierz[3][4] = {
+      |                             ^
+main.cpp:7:18: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    7 |                 {"w","w","w"},
+      |                  ^~~
+      |                  |
+      |                  const char*
+main.cpp:7:22: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    7 |                 {"w","w","w"},
+      |                      ^~~
+      |                      |
+      |                      const char*
+main.cpp:7:26: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    7 |                 {"w","w","w"},
+      |                          ^~~
+      |                          |
+      |                          const char*
+main.cpp:8:18: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    8 |                 {"w","w","w"},
+      |                  ^~~
+      |                  |
+      |                  const char*
+main.cpp:8:22: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    8 |                 {"w","w","w"},
+      |                      ^~~
+      |                      |
+      |                      const char*
+main.cpp:8:26: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    8 |                 {"w","w","w"},
+      |                          ^~~
+      |                          |
+      |                          const char*
+main.cpp:9:18: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    9 |                 {"w","w","w"};
+      |                  ^~~
+      |                  |
+      |                  const char*
+main.cpp:9:22: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    9 |                 {"w","w","w"};
+      |                      ^~~
+      |                      |
+      |                      const char*
+main.cpp:9:26: error: invalid conversion from ‘const char*’ to ‘int’ [-fpermissive]
+    9 |                 {"w","w","w"};
+      |                          ^~~
+      |                          |
+      |                          const char*
+main.cpp: At global scope:
+main.cpp:13:1: error: ‘cout’ does not name a type
+   13 | cout<<macierz[1][2]<<endl;
+      | ^~~~
+main.cpp:14:9: error: expected unqualified-id before ‘return’
+   14 |         return 0;
+      |         ^~~~~~
+main.cpp:15:1: error: expected declaration before ‘}’ token
+   15 | }
+      | ^
